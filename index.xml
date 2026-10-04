@@ -2,28 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Lukas Svesnikovas - PRIF23-4</title>
-    <link>https://lukassves.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Lukas Svesnikovas - PRIF23-4</description>
     <generator>Hugo</generator>
     <language>lt-LT</language>
-    <lastBuildDate>Sun, 04 Oct 2026 21:45:00 +0300</lastBuildDate>
-    <atom:link href="https://lukassves.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Oct 2026 20:00:00 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apie</title>
-      <link>https://lukassves.github.io/posts/pirmas/</link>
-      <pubDate>Sun, 04 Oct 2026 21:45:00 +0300</pubDate>
-      <guid>https://lukassves.github.io/posts/pirmas/</guid>
-      <description>&lt;h1 id=&#34;apie&#34;&gt;Apie&lt;/h1&gt;
-&lt;p&gt;Šis puslapis sukurtas atliekant debesų kompiuterijos laboratorinį darbą.&lt;/p&gt;
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 04 Oct 2026 20:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Šis puslapis sukurtas atliekant debesų kompiuterijos laboratorinį darbą.&lt;/p&gt;
 &lt;p&gt;Autorius: Lukas Svesnikovas, PRIF23-4.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Apie</title>
-      <link>https://lukassves.github.io/about/</link>
+      <title>Pirmas</title>
+      <link>http://localhost:1313/posts/pirmas/</link>
       <pubDate>Sun, 04 Oct 2026 20:00:00 +0300</pubDate>
-      <guid>https://lukassves.github.io/about/</guid>
-      <description>&lt;p&gt;Šis puslapis sukurtas atliekant debesų kompiuterijos laboratorinį darbą.&lt;/p&gt;
-&lt;p&gt;Autorius: Lukas Svesnikovas, PRIF23-4.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/pirmas/</guid>
+      <description>&lt;h1 id=&#34;debesu-kompiuterijos-laboratorinis-darbas&#34;&gt;Debesu kompiuterijos laboratorinis darbas&lt;/h1&gt;
+&lt;p&gt;Siame darbe sukuriau Oracle Cloud virtualu serveri ir sukonfiguravau nginx.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Oracle Cloud serveris&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/oracle.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;naudotos-linux-komandos&#34;&gt;Naudotos Linux komandos&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo systemctl status nginx
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo firewall-cmd --list-all
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo tail -n &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt; /var/log/nginx/access.log
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Puslapis sugeneruotas naudojant Hugo ir PaperMod tema.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
